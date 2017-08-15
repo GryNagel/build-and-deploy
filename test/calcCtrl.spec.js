@@ -180,7 +180,7 @@ describe('the calculation controller', function () {
         var ctrl = createController();
         ctrl.calculate(10, 10, operator);
 
-        expect(ctrl.result).toBe('Operator not implemented');
+        expect(ctrl.result).toBe(100);
       });
     });
 
