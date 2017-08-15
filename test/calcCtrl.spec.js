@@ -68,7 +68,7 @@ describe('the calculation controller', function () {
 
       it('should calculate -3 + -7 = -10', function () {
         var ctrl = createController();
-        ctrl.calculate(-3, -7, operator);
+        ctrl.calculate(-2, -7, operator);
 
         expect(ctrl.result).toBe(-10);
       });
